@@ -1,7 +1,7 @@
 import React from 'react';
 import MessageForm from './MessageForm';
 import MyMessage from './MyMessage';
-import TheirMessage from './MessageForm';
+import TheirMessage from './TheirMessage';
 
 const ChatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;
@@ -26,7 +26,7 @@ const ChatFeed = (props) => {
             }
           </div>
           <div className="read-receipts" style={{ marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px' }}>
-            read receipts
+            {/* read receipts */}
           </div>
         </div>
       )
