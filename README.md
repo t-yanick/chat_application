@@ -26,8 +26,8 @@
 
 ## Test Credentials
 
-Username: test
-Password: 12345
+Username: `test`
+Password: `12345`
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
